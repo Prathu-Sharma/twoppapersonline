@@ -1,0 +1,77 @@
+body
+{
+    font-family: fantasy;
+    margin: 5px;
+    padding: 3px;
+    background-image: url("images/womentest.png");
+    background-size: 200%;
+    background-position-x: -350px;
+    background-repeat: no-repeat;
+    text-align: start;
+}
+header
+{
+    padding:10px;
+    height: 50px;
+    margin-top: 2px;
+    display:inline-block;
+    font-size: larger;
+}
+h1
+{
+    font-size: 41px;
+}
+h2
+{
+    height: 120px;
+    width:170px;
+    text-align: initial;
+    position: relative;
+    display: grid;
+    margin: 20px auto;
+    color: blueviolet;
+    box-shadow: 7px 7px 7px 7px rgba(0,0,0,0.3);
+}
+header
+{
+    color: black;
+    text-decoration:none;   
+    text-transform: uppercase;
+}
+header .logo a
+{
+    background-size: 30px;
+    display: inline-block;
+    text-indent: 400px;
+    height: 40px;
+    text-align:center;
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+section
+{
+    color:rgb(20,20,20);
+    display:block;
+    font-size: larger;
+    padding-left: 22px;
+    background-size: 100%;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0px;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 150px;
+    margin-block-start: 0%;
+    padding-bottom:2.5%;
+
+}
+dialog
+{
+    margin: 60px;
+    padding-left: 5px;
+}

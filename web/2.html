@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fixed menu scroll menu</title>
+</head>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		 $("body").delay(800).fadeIn(2000);
+   $("h1").delay(1800).slideDown(1200);
+	});
+</script>
+<style type="text/css">
+	*
+	{
+      margin:0px;
+      padding: 0px;
+      font-weight: bold;
+      color: white;
+      font-family: sans-serif;
+	}
+	body
+	{
+		background-color: black;
+		display: none;
+	}
+	.d1
+	{
+      background-color: hsl(300,60%,70%);
+      height: 400px;
+      width: 140px;
+      position: fixed;
+      left:-120px;
+      transition: left 4s;
+      cursor: pointer;
+      border-radius: 20px;
+	}
+.d1:hover{
+		left: 0px;
+	}
+   .d2
+   {
+   height: 100px;
+   background-color: green;  
+   } 
+  h1{
+  	text-align: center;
+  	display: none;
+  }
+ul{
+	line-height: 40px;
+}
+
+</style>
+<body>
+<div class="d1">
+<ul>
+	<li>Home</li>
+	<li>Careers</li>
+	<li>Address</li>
+	<li>ContactUs</li>
+</ul>	
+</div>
+<div class="d2">
+	<h1>WELCOME TO MY PAGE</h1>
+</div>
+</body>
+</html>

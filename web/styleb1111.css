@@ -1,0 +1,22 @@
+.d1
+{
+border:2px solid blue;
+}
+.d2
+{
+border:2px solid red;
+height: 70px;
+float:right;
+text-align: center;
+}
+.r1,.r2
+{
+border:2px solid green;
+}
+.r2{
+	height: 800px;
+}
+.d3
+{
+	border:2px solid red;
+}
