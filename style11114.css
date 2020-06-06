@@ -17,23 +17,9 @@ font-family: sans-serif;
           width: 1360px;
           height: 300px;
       }
-      .d21
-    {
-      display: none;
-      left: 100px;
-      top: 100px;
-      position: absolute;
-          width: 1100px;
-          height: 100px;
-      }
+    
       
-    video
-    {
-      display: none;
-      object-fit: cover;
-      width:1360px;
-      height: 300px;
-    }
+     
   .a1,.a2,.a3,.a4,.a5,.a6,.a7,.a7,.a8,.a9,.a10,.a11,.a12,.a13,.a14,.a15,.a16
 {
   display: none;
